@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>django practice</title>
+        <style type="text/css">
+            img.sample1 {
+                height:400px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>django website</h1>
+        <img src = "{% static 'sample.jpg' %}" class="sample1">
+    </body>
+</html>
